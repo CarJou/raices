@@ -10,7 +10,7 @@ import "../index.css";
 const Tarjeta = (props) => {
   return (
     <div>
-      <Card style={{ width: "25rem", marginRight: "top" }} className="nueva">
+      <Card style={{ width: "25rem"}} className="nueva" variant="top">
         <Card.Img src={Voluntarios} alt="Voluntarios de Raices" />
         <Card.Body>
           <Button variant="primary" className="voluntario btn-btn">

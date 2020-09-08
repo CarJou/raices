@@ -64,7 +64,6 @@ function Routes() {
           path="/comedores"
           children={
             <>
-              <Comedores />
               <Lista />
               <Tarjeta />
               <Mapbox />

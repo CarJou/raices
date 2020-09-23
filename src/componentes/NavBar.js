@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import logo from "../images/logo.png";
 import "../index.css";
 
+/* el nav a la derecha */
 const NavBar = () => {
   const scrollToTop = () => {
     scroll.scrollToTop();

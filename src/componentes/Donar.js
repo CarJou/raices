@@ -1,28 +1,37 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Jumbotron from "react-bootstrap/Jumbotron";
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Row";
-import donar from "../images/donation.svg";
+import { Link } from "react-router-dom";
+import { Container } from "react-bootstrap";
+import donar from "../images/bank.svg";
+import "../css/Donar.css";
+
 const Donar = () => {
   return (
     <>
-      <section id="donar" className="section2">
-        <h1 className="title"></h1>
-        <Container>
-          <Jumbotron className="text-center">
-            <Card.Img src={donar} variant="top" className="icon" />
-            <Card.Title>#QuieroDonar</Card.Title>
-            <p>
-              Ayudanos a ayudar, hace tu aporte con el monto que elijas desde
-              Mercado Pago. Los habitantes de Merlo estarán muy agradecidos.
-            </p>
-            <p>
-              <button className="btn-btn">Donar</button>
-            </p>
-          </Jumbotron>
+      <section id="donar" className="section2"></section>
+        <Container fluid className="donar">
+          <h1 className="titulo">#Donar</h1>
+         <div className="flex">
+        
+            <div>
+              <img fluid src={donar} className="icon" alt="Donar" ></img>
+            </div>
+
+            <div>
+              <p className="help">Ayudanos a ayudar!</p>
+              <p className="donar2">
+                Hacé tu donación con el monto que elijas desde Mercado Pago. Los
+                habitantes de Merlo estarán muy agradecidos.
+              </p>
+             <button className="btn-btn mb-4">
+             <Link to="donar">
+                Donar!
+              </Link>
+             </button>
+    
+          </div>
+         </div>
         </Container>
-      </section>
+      
     </>
   );
 };

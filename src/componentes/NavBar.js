@@ -1,7 +1,7 @@
 import React from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import { animateScroll as scroll } from "react-scroll";
+import { Link } from 'react-router-dom';
+import { Nav, Navbar }from "react-bootstrap";
 import logo from "../images/logo.png";
 import "../index.css";
 
@@ -14,7 +14,7 @@ const NavBar = () => {
   return (
     <>
       <Navbar className="sticky-top navbar" expand="lg">
-        <Link to={"/"} className="navbar-brand">
+      <Link to={"/"} className="navbar-brand">
           <img
             style={{ height: "70px" }}
             src={logo}
@@ -27,7 +27,7 @@ const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Link
-              to="about"
+              to="/"
               className="nav-link"
               activeClass="active"
               spy={true}
@@ -36,7 +36,7 @@ const NavBar = () => {
               duration={500}
               style={{ cursor: "pointer" }}
             >
-              Nosotros
+              Home
             </Link>
             <Link
               to="donar"
@@ -51,7 +51,7 @@ const NavBar = () => {
               Donar
             </Link>
             <Link
-              to="comoparticipar"
+              to="nosotros"
               className="nav-link"
               activeClass="active"
               spy={true}
@@ -60,11 +60,11 @@ const NavBar = () => {
               duration={500}
               style={{ cursor: "pointer" }}
             >
-              Como participar
+              Nosotros
             </Link>
 
             <Link
-              to="contacto"
+              to="comedores"
               className="nav-link"
               activeClass="active"
               spy={true}
@@ -73,8 +73,20 @@ const NavBar = () => {
               duration={500}
               style={{ cursor: "pointer" }}
             >
-              Contacto
+              Nuestros comedores
             </Link>
+            <a
+              href="https://docs.google.com/forms/d/1RpsRwaoy1V9PRCBjRleNEZ0vlMAEowSRi5MkSzgbUVg/edit"
+              className="nav-link"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              style={{ cursor: "pointer" }}
+            >
+              Sumate como voluntario
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

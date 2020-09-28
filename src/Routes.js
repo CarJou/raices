@@ -12,7 +12,7 @@ import DonarPage from "./componentes/DonarPage";
 import Coordinadores from "./componentes/Coordinadores";
 import Voluntarios from "./componentes/Voluntarios";
 import Lista from "./componentes/Lista";
-
+import Mapbox from "./componentes/Mapbox";
 import {
   BrowserRouter as Router,
   Switch,
@@ -71,7 +71,7 @@ function Routes() {
           children={
             <>
               <Lista />
-
+              <Mapbox />
             </>
           }
         />

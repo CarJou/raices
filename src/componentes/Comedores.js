@@ -9,6 +9,7 @@ const Comedores = () => {
   return (
     <>
       <Container className="content" >
+        
 {/*       <Lista />
       <Tarjeta />
       <Mapbox />

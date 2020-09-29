@@ -17,19 +17,20 @@ const DonarPage = () => {
 
 <Row className="my-5 text-center">
     <Col> <a className="btn btn-link" href="https://mpago.la/1FBEy7J">Donar $50</a></Col>
-    <Col><a className="btn btn-link"href="#">Donar $100</a></Col>
-    
+    <Col><a className="btn btn-link"href="https://mpago.la/1PccT7H">Donar $100</a></Col>
 </Row>
 <Row className="my-5 text-center">
-<Col><a className="btn btn-link" href="#">Donar $200</a></Col>
-<Col><a className="btn btn-link" href="#">Donar $300</a></Col>
+<Col><a className="btn btn-link" href="https://mpago.la/2rdC8Vi">Donar $200</a></Col>
+<Col><a className="btn btn-link" href="https://mpago.la/23anabr">Donar $300</a></Col>
 </Row>
 <Row className="my-5 text-center">
-    
-    <Col><a className="btn btn-link" href="#">Donar $400</a></Col>
-    <Col><a className="btn btn-link" href="#">Donar$500</a></Col>
+    <Col><a className="btn btn-link" href="https://mpago.la/1FbKk5B">Donar $400</a></Col>
+    <Col><a className="btn btn-link" href="https://mpago.la/2XKLFQa">Donar$500</a></Col>
+   
 </Row>
-
+<Row className="">
+<Col><a className="btn btn-link abs-center" href="https://mpago.la/1CSUcK8">Donar$1000</a></Col>
+</Row>
 
 </Container>
 </>

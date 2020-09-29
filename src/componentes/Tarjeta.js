@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Card, Button } from "react-bootstrap";
+import { /* Container, Row, */ Card, Button } from "react-bootstrap";
 /* import { Link } from "react-router-dom";
 import gracias from "../images/gracias.png"; */
 import Voluntarios from "./Voluntarios";

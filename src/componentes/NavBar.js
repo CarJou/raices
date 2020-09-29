@@ -41,7 +41,7 @@ const NavBar = () => {
             <Link
               to="donar"
               className="nav-link"
-              activeClass="active"
+  /*             activeClass="active" */
               spy={true}
               smooth={true}
               offset={-70}
@@ -53,7 +53,7 @@ const NavBar = () => {
             <Link
               to="nosotros"
               className="nav-link"
-              activeClass="active"
+     /*          activeClass="active" */
               spy={true}
               smooth={true}
               offset={-70}
@@ -66,7 +66,7 @@ const NavBar = () => {
             <Link
               to="comedores"
               className="nav-link"
-              activeClass="active"
+    /*           activeClass="active" */
               spy={true}
               smooth={true}
               offset={-70}
@@ -78,7 +78,7 @@ const NavBar = () => {
             <a
               href="https://docs.google.com/forms/d/1RpsRwaoy1V9PRCBjRleNEZ0vlMAEowSRi5MkSzgbUVg/edit"
               className="nav-link"
-              activeClass="active"
+       /*        activeClass="active" */
               spy={true}
               smooth={true}
               offset={-70}

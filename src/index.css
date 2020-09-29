@@ -24,42 +24,13 @@ body {
   width: 2rem;
   height: 2rem;
 }
+
+
 .content{
   
   display: inline-block;
 }
 
-<<<<<<< HEAD
-.nueva{
-  margin-inline-start: 0%;
-  /* height: auto; */
-  display: inline;
-}
-.voluntario{
-font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 27px;
-text-align: center;
-}
-.container img{
-  max-width: 100%;
-  height: auto;
-}
-.green{
-  color:#31e197;
-}
-#celeste{
-  background-color:#00d0ff;
- }
-.corta{
-  display:flex; 
-  width: 30vw;
-}
-=======
-
->>>>>>> ed61ff0516d4262f50ab7db9f723bceb00997b67
 .div {
   max-width: 100% !important;
 }

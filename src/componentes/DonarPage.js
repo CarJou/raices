@@ -26,12 +26,8 @@ const DonarPage = () => {
 <Row className="my-5 text-center">
     <Col><a className="btn btn-link" href="https://mpago.la/1FbKk5B">Donar $400</a></Col>
     <Col><a className="btn btn-link" href="https://mpago.la/2XKLFQa">Donar$500</a></Col>
-   
 </Row>
-<Row className="">
-<Col><a className="btn btn-link abs-center" href="https://mpago.la/1CSUcK8">Donar$1000</a></Col>
-</Row>
-
+<Col className="my-5 text-center"><a className="btn btn-link abs-center" href="https://mpago.la/1CSUcK8">Donar$1000</a></Col>
 </Container>
 </>
      );

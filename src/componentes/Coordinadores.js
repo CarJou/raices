@@ -8,15 +8,13 @@ const Coordinadores = () => {
     <>
       <Container fluid className="text-center my-5 px-0">
         <h1 className="title">#Coordinadores</h1>
-
         <img
           fluid
           src={coordinadores}
           className="img-vol-coor w-100"
           alt="raices bichito de luz"
         />
-
-        <p>fulanito menganito, chirombito y chirombita</p>
+        <p>Daniela Karina, Gabriela, Nadia y Josefina</p>
       </Container>
     </>
   );

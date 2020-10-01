@@ -28,33 +28,39 @@ const NavBar = () => {
             <Link
               to="/"
               className="nav-link"
-              activeClass="active"
-              spy={true}
-              smooth={true}
+              activeclass="active"
+              /* spy={true} */
+              spy="true"
+              /* smooth={true} */
+              smooth="true"
               offset={-70}
               duration={500}
-              style={{ cursor: "pointer" }}
+              style={{ cursor: "pointer"   }}
             >
               Home
             </Link>
             <Link
               to="donar"
-              className="nav-link"
-              activeClass="active"
-              spy={true}
-              smooth={true}
+              className="nav-link linkText"
+              activeclass="active"
+              /* spy={true} */
+              spy="true"
+              /* smooth={true} */
+              smooth="true"
               offset={-70}
               duration={500}
               style={{ cursor: "pointer" }}
             >
               Donar
             </Link>
-            <Link
+            <Link 
               to="nosotros"
-              className="nav-link"
-              activeClass="active"
-              spy={true}
-              smooth={true}
+              className="nav-link linkText"
+              activeclass="active"
+              /* spy={true} */
+              spy="true"
+              /* smooth={true} */
+              smooth="true"
               offset={-70}
               duration={500}
               style={{ cursor: "pointer" }}
@@ -62,12 +68,14 @@ const NavBar = () => {
               Nosotros
             </Link>
 
-            <Link
+            <Link 
               to="comedores"
               className="nav-link"
-              activeClass="active"
-              spy={true}
-              smooth={true}
+              activeclass="active"
+              /* spy={true} */
+              spy="true"
+              /* smooth={true} */
+              smooth="true"
               offset={-70}
               duration={500}
               style={{ cursor: "pointer" }}
@@ -77,9 +85,11 @@ const NavBar = () => {
             <a
               href="https://docs.google.com/forms/d/1RpsRwaoy1V9PRCBjRleNEZ0vlMAEowSRi5MkSzgbUVg/edit"
               className="nav-link"
-              activeClass="active"
-              spy={true}
-              smooth={true}
+              activeclass="active"
+              /* spy={true} */
+              spy="true"
+              smooth="true"
+              /* smooth={true} */
               offset={-70}
               duration={500}
               style={{ cursor: "pointer" }}

@@ -50,7 +50,11 @@ p.raices {
   text-align: center !important;
   align-items: center !important;
 }
+a:hover{
 
+  color: #fff;
+}
+.linkText{ color: white ; }
 .boton-about:hover {
   width: 300px;
   color: black;

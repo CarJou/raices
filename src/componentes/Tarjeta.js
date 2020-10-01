@@ -10,7 +10,7 @@ const Tarjeta = () => {
       <Container>
         <h1 className="text-center title m-0">#Donar</h1>
         <Row className="custom-row d-flex justify-content-center">
-          <img fluid src={gracias} className="thanx" alt="Gracias"></img>
+          <img fluid="true" src={gracias} className="thanx" alt="Gracias"></img>
           <p className="help text-center">Muchas gracias por ayudarnos!</p>
           <button className="btn-tarjeta text-center">
           <Link to="donar">

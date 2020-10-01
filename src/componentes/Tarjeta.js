@@ -1,23 +1,23 @@
 import React from "react";
-import { /* Container, Row, */ Card, Button } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import gracias from "../images/gracias.png";
-import Voluntarios from "./Voluntarios";
-
 import "../index.css";
-
 
 const Tarjeta = () => {
   return (
     <div>
-      <Card style={{ width: "25rem"}} className="nueva" variant="top">
-        <Card.Img src={Voluntarios} alt="Voluntarios de Raices" />
-        <Card.Body>
-          <Button variant="primary" className="voluntario btn-btn">
-            DONAR!
-          </Button>
-        </Card.Body>
-      </Card>
+      <Container>
+        <h1 className="text-center title m-0">#Donar</h1>
+        <Row className="custom-row d-flex justify-content-center">
+          <img fluid="true" src={gracias} className="thanx" alt="Gracias"></img>
+          <p className="help text-center">Muchas gracias por ayudarnos!</p>
+          <button className="btn-tarjeta text-center">
+          <Link to="donar">
+            Donar!
+          </Link></button>
+        </Row>
+      </Container>
     </div>
   );
 };

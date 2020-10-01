@@ -8,12 +8,12 @@ const Donar = () => {
   return (
     <>
       <section id="donar" className="section2"></section>
-        <Container fluid className="donar">
+        <Container fluid="true" className="donar">
           <h1 className="titulo">#Donar</h1>
          <div className="flex">
         
             <div>
-              <img fluid src={donar} className="icon" alt="Donar" ></img>
+              <img fluid="true" src={donar} className="icon" alt="Donar" ></img>
             </div>
 
             <div>

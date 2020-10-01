@@ -5,7 +5,6 @@ import { Nav, Navbar }from "react-bootstrap";
 import logo from "../images/logo.png";
 import "../index.css";
 
-/* el nav a la derecha */
 const NavBar = () => {
   const scrollToTop = () => {
     scroll.scrollToTop();
@@ -30,32 +29,38 @@ const NavBar = () => {
               to="/"
               className="nav-link"
               activeclass="active"
-              spy={true}
-              smooth={true}
+              /* spy={true} */
+              spy="true"
+              /* smooth={true} */
+              smooth="true"
               offset={-70}
               duration={500}
-              style={{ cursor: "pointer" }}
+              style={{ cursor: "pointer"   }}
             >
               Home
             </Link>
             <Link
               to="donar"
-              className="nav-link"
+              className="nav-link linkText"
               activeclass="active"
-              spy={true}
-              smooth={true}
+              /* spy={true} */
+              spy="true"
+              /* smooth={true} */
+              smooth="true"
               offset={-70}
               duration={500}
               style={{ cursor: "pointer" }}
             >
               Donar
             </Link>
-            <Link
+            <Link 
               to="nosotros"
-              className="nav-link"
+              className="nav-link linkText"
               activeclass="active"
-              spy={true}
-              smooth={true}
+              /* spy={true} */
+              spy="true"
+              /* smooth={true} */
+              smooth="true"
               offset={-70}
               duration={500}
               style={{ cursor: "pointer" }}
@@ -63,12 +68,14 @@ const NavBar = () => {
               Nosotros
             </Link>
 
-            <Link
+            <Link 
               to="comedores"
               className="nav-link"
               activeclass="active"
-              spy={true}
-              smooth={true}
+              /* spy={true} */
+              spy="true"
+              /* smooth={true} */
+              smooth="true"
               offset={-70}
               duration={500}
               style={{ cursor: "pointer" }}
@@ -79,8 +86,10 @@ const NavBar = () => {
               href="https://docs.google.com/forms/d/1RpsRwaoy1V9PRCBjRleNEZ0vlMAEowSRi5MkSzgbUVg/edit"
               className="nav-link"
               activeclass="active"
-              spy={true}
-              smooth={true}
+              /* spy={true} */
+              spy="true"
+              smooth="true"
+              /* smooth={true} */
               offset={-70}
               duration={500}
               style={{ cursor: "pointer" }}

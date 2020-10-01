@@ -44,7 +44,7 @@ p.donar2 {
 }
 
 img.wave {
-  background-image: url();
+  background-image: url(../images/wave1.svg);
   display: flex;
   position: absolute;
   position: static;

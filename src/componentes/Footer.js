@@ -10,8 +10,13 @@ const Footer = () => {
         Developed with
         <span role="img" aria-label="heart-emoji">
           ❤️
-        </span>{" "}
-        by Jess, Carla, Federico y Matías{" "}
+        </span>
+        by Jesica, Carla y Federico.
+      </p>
+      <p className="footer text-mutted text-center mb-0">
+      
+        © 2020 Raices Merlenses ONG - Todos los derechos reservados
+        
       </p>
     </div>
   );

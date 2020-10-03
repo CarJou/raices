@@ -52,7 +52,6 @@ const DonarPage = () => {
                   size="lg"
                   href="https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=622736571-e87d6e93-0c85-4530-b86a-1c371912c5fd"
                   rel="noopener noreferrer"
-                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   $200
@@ -63,7 +62,6 @@ const DonarPage = () => {
                   variant="outline-primary"
                   size="lg"
                   href="https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=622736571-6c2106b5-8e56-45a3-854e-5b60a751410e"
-                  rel="noopener noreferrer"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -94,11 +92,12 @@ const DonarPage = () => {
                   $500
                 </Button>
               </Col>{" "}
-              <br />
-              <Button
-                className="my-5 p-1"
+            </Row>
+            <Row>
+            <Button
+                className="p-1"
                 variant="outline-primary"
-                size="lg"
+               
                 block
                 href="https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=622736571-4734ebc2-69a4-470a-bed5-29fcba25e16f"
                 rel="noopener noreferrer"
